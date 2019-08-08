@@ -1,32 +1,32 @@
+<nav class="navbar-fixed">
 
-  <nav class="navbar-fixed">
+  <div class="nav-container">
 
-    <div class="nav-container">
+    <div class="nav-list">
+      <ul>
+        <li><a href="#home"> <i class="fas fa-home"></i><b>Home</b> </a></li>
+        <li><a href="#about-container"><i class="fas fa-user-alt"></i><b>About</b></a></li>
+        <li><a href="#projects"><i class="fas fa-laptop"></i> <b>Projects</b></a></li>
+        <li><a href="#resume"><i class="fas fa-book"></i><b>Resume</b></a></li>
+        <li><a href="#"><i class="far fa-envelope"></i> <b>Contact</b></a></li>
 
-      <div class="nav-list">
-        <ul>
-          <li><a href="#index.html"> <i class="fas fa-home"></i><b>Home</b> </a></li>
-          <li><a href="#about"><i class="fas fa-user-alt"></i><b>About</b></a></li>
-          <li><a href="#"><i class="fas fa-laptop"></i> <b>Work</b></a></li>
-          <li><a href="#resume"><i class="fas fa-book"></i><b>Resume</b></a></li>
-          <li><a href="#"><i class="far fa-envelope"></i> <b>Contact</b></a></li>
+      </ul>
 
-        </ul>
+      {{!-- <ul class="icons">
+        <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href=""><i class="fab fa-google"></a></i></li>
 
-        <ul class="icons">
-          <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-          <li><a href=""><i class="fab fa-google"></a></i></li>
-
-        </ul>
+      </ul> --}}
 
 
-  </nav>
-  </div>
+</nav>
+</div>
 
-  </div>
+</div>
 
+<div id="home">
   <header class="v-header container">
-    
+
 
 
     <svg id="logo" width="600" height="589" viewBox="0 0 1134 589" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -210,350 +210,588 @@
 
 
     <!--Section: Contact v.2-->
-    <section class="mb-4">
-      <div class="contact-wrapper">
-        <!--Section heading-->
-        <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
 
-        <div class="row">
-
-          <!--Grid column-->
-          <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" action="/" method="POST">
-
-              <!--Grid row-->
-              <div class="row">
-
-                <!--Grid column-->
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input type="text" id="name" name="name" class="form-control">
-                    <label for="name" class="">Your name</label>
-                  </div>
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-6">
-                  <div class="md-form mb-0">
-                    <input type="text" id="email" name="email" class="form-control">
-                    <label for="email" class="">Your email</label>
-                  </div>
-                </div>
-                <!--Grid column-->
-
-              </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="md-form mb-0">
-                    <input type="text" id="subject" name="subject" class="form-control">
-                    <label for="subject" class="">Subject</label>
-                  </div>
-                </div>
-              </div>
-              <!--Grid row-->
-
-              <!--Grid row-->
-              <div class="row">
-
-                <!--Grid column-->
-                <div class="col-md-12">
-
-                  <div class="md-form">
-                    <textarea type="text" id="message" name="message" rows="2"
-                      class="form-control md-textarea"></textarea>
-                    <label for="message">Your message</label>
-                  </div>
-
-                </div>
-              </div>
-              <!--Grid row-->
-
-            </form>
-
-            <div class="text-center text-md-left bttn">
-              <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-            </div>
-            <div class="status"></div>
-          </div>
-          <!--Grid column--> 
-
-
-          <!--Grid column-->
-
-        </div>
-
-    </section>
     <!--Section: Contact v.2-->
 
 
+</div>
+
+
+
+
+</header>
+
+<section class="mb-4">
+  <div class="contact-wrapper">
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact me</h2>
+
+    <div class="row">
+
+      <!--Grid column-->
+      <div class="col-md-9 mb-md-0 mb-5">
+        <form id="contact-form" action="/" method="POST">
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="name" name="name" class="form-control">
+                <label for="name" class="">Your name</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-6">
+              <div class="md-form mb-0">
+                <input type="text" id="email" name="email" class="form-control">
+                <label for="email" class="">Your email</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="md-form mb-0">
+                <input type="text" id="subject" name="subject" class="form-control">
+                <label for="subject" class="">Subject</label>
+              </div>
+            </div>
+          </div>
+          <!--Grid row-->
+
+          <!--Grid row-->
+          <div class="row">
+
+            <!--Grid column-->
+            <div class="col-md-12">
+
+              <div class="md-form">
+                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                <label for="message">Your message</label>
+              </div>
+
+            </div>
+          </div>
+          <!--Grid row-->
+
+        </form>
+
+        <div class="text-center text-md-left bttn">
+          <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+        </div>
+        <div class="status"></div>
+      </div>
+      <!--Grid column-->
+
+
+      <!--Grid column-->
+
+    </div>
+
+</section>
+</div>
+
+
+<section id="services">
+
+
+  <div class="services-container ">
+
+
+    <div class="services-title"> services
+
+    </div>
+
+    <article class="service-item services-item-black">
+      <div class="front-text">
+        <i class="fas fa-laptop"></i>
+        <h1> web development</h1>
+      </div>
+
+
+
+      <div class="back-text">
+        <p>1-2 year working with clients, building and designing their websites from scratch using HTML, CSS, Javascript. Graduated
+          from UCSD Full-stack Web development and have build my stack ( HTML5, CSS3, JavaScript, jQuery, Bootstrap, Express.js, React.js, Node.js, MongoDB, MySQL, Command Line, and Git.)
+          and excited to put in use.
+        </p>
+      </div>
+    </article>
+
+    {{!-- <article class="service-item services-item-white">
+      <div class="front-text">
+        <i class="fas fa-paint-brush"></i>
+
+        <h1> web design</h1>
+      </div>
+
+
+
+      <div class="back-text">
+        <h1>web design</h1>
+        <p>Designing websites creating templates, logos in Adobe photoshop </p>
+        <button type="button">read more</button>
+      </div>
+    </article> --}}
+
+    <article class="service-item services-item-white">
+      <div class="front-text">
+        <i class=" fas fa-archive"></i>
+        <h1>web design</h1>
+      </div>
+
+
+
+      <div class="back-text">
+        <h1>web design</h1>
+        <p>Designing websites and creating templates Using Figma and Adobe photoshop for clients and for myself to
+           have something to visualize. 
+        </p>
+      </div>
+    </article>
+
+
+
+
+
+    <article class="service-item services-item-black">
+      <div class="front-text">
+        <i class="fas fa-mobile-alt"></i>
+
+
+        <h1> Responsive design</h1>
+      </div>
+
+
+
+      <div class="back-text">
+        <h1>Responsive design</h1>
+        <p>Creating media queries to fit mobile and desktop screen sizes and resolutions are a top priority of mine, it's 2019 
+          and most people are using phones instead of going on their laptop.
+        </p>
+      </div>
+    </article>
+{{!-- 
+    <article class="service-item services-item-white">
+      <div class="front-text">
+        <i class=" fas fa-archive"></i>
+        <h1>SEO & PPC</h1>
+      </div>
+
+
+
+      <div class="back-text">
+        <h1>SEO & PPC</h1>
+        <p>Working with google analytics, google adwords to grow search engine results organically or paid ﻿</p>
+        <button type="button">read more</button>
+      </div>
+    </article> --}}
+
+
+</section>
+
+
+
+
+<div id="projects" class="container-work">
+  <!--everything on the page-->
+  <div class="row-work">
+
+  </div>
+  <!--closing row 1-->
+
+
+  <div class="hero-image">
+    <h1> Projects</h1>
+  </div>
+
+  <!--closing row 2-->
+
+
+  <div class="row-work">
+    <div class="row3">
+      <div class="textOverImage"
+        data-text="Realestate website
+        build with React displays current homes listed, can be adjustes with the customers current budget, house type, rooms.  ">
+        <a class="link-sites" href="https://safe-spire-17023.herokuapp.com/"> check it out!</a>
+
+
+      </div>
+      <!--closing column 6-->
+
+      <div class="textOverImage1"
+        data-text="Event Creator
+        a website that manages your events. It's able to add and delete an event, it can invite guests to the event through email and gives options to select 'yes im going' or 'no not going' and it will update the response to the website ">
+        <a class="link-sites" href='https://server-spies.herokuapp.com/'>check it out!</a>
+
+      </div>
+      <!--closing column 3-->
+
+      <div class="textOverImage2"
+        data-text="Motorcycle dealership
+      a website that gives a brief description on motorcycles, and lists the motorcycles, parts, and tools they have on sale at their store">
+      </div>
+
+      <div class="textOverImage3"
+        data-text="Music record label
+      website that lists current artist, tour dates, and merch on sale. Gives brief description about their mission as a record label, artists and more. ">
+      </div>
+
+      <!--closing column 3-->
+    </div>
+  </div>
+
+  {{!-- MY STACK --}}
+
+  <div class="stack-container">
+
+    <div class="stack">
+
+      <h2 class="stack-title"> My stack </h2>
+
+      <div class="html-img">
+
+
+      </div>
+
+        <div class="css">
+        
+
+      </div>
+
+        <div class="js">
+        
+
+      </div>
+
+        <div class="react" >
+        
+
+      </div>
+
+        <div class="node">
+        
+
+      </div>
+
+        <div class="express" width= "100%">
+        
+
+      </div>
+
+        <div class="mongo">
+        
+
+      </div>
+
+        <div class="firebase">
+
+      </div>
+
+      <div class="mysql">
+        
+
+      </div>
+
+    </div>
+ 
+
+  </div>
+
+
+  {{!-- ABOUT --}}
+
+  <div id="about-container">
+
+
+    <div class="about-content">
+      <h3 class="about-title">
+        About me </h1>
+
+        <p> Welcome to my Portfolio, I'm a Eric a junior web developer. Designing and Coding have been a passion for
+          me ever since I started working with computers, for the past couple years I have been freelancing and building
+          my frontend skills , building and visually designing clients websites, using Adobe photoshop, HTML, CSS, and
+          JavaScript/jQuery. I decided to advance my career and joined UCSD Full-stack Web Development bootcamp where I learned Frontend languages
+          (Html5, CSS, React, Bootstrap) and Backend languages ( Node.js, Express, Mongodb, Firebase, MYSQL(Sequelize) ).
+          I've graduated now and ready for my next chapter in life</p>
+
+        <ul class="about-list">
+          <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>AJAX</li>
+                    <li>Node.js</li>
+                    <li>React</li>
+                   <li>Express</li>
+                   <li>Mongodb</li>
+                   <li>Firebase</li>
+                   <li> MYSQL(Sequelize)</li>
+        </ul>
+
+        
+    </div>
+  </div>
+
+</div>
+
+
+    <div class="bootcamp-cert">
+
+
     </div>
 
 
 
 
-  </header>
 
+  <!-- RESUME PART -->
+  <!--closing container div-->
+  <section id="resume">
+  <div class="work-container">
 
-  <section id="services">
+    <article class="resume-item">
+      <div class="front-text-r">
 
+        <h1> Like What You See? </h1>
+        <p> Check out my resume to learn more.</p>
 
-    <div class="services-container ">
+        <div class="banner-btn-r">
+          <button id="resume-button" type="button">View Resume</button>
 
-
-      <div class="services-title"> services
+        </div>
 
       </div>
 
-      <article class="service-item services-item-black">
-        <div class="front-text">
-          <i class="fas fa-laptop"></i>
-          <h1> web development</h1>
-        </div>
+
+    </article>
+  </div>
+  </div>
+
+{{!-- MODEL SECTION for resume --}}
+  <div class="dark-theme">
+
+
+      <html><head>
+  	<title>Resume</title>
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+       <meta name="language" content="English">
+          <meta charset="utf-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <meta property="og:locale" content="en_US">
+          <meta property="og:type" content="website">
+
+          <meta name="description" content="Are you looking for creative Website Design Company in Delhi? Get user friendly professional and E-commerce web development services. Join the innovators.">
+
+                    
+
+      <meta name="keywords" content="web designing Delhi, website design Delhi, web Design Company in Delhi, web designing companies in Delhi, md aqil">
+
+
+      <meta property="og:title" content="Are you looking for creative Website Design Company in Delhi? Get user friendly professional and E-commerce web development services.">
+
+      <meta property="og:description" content="Are you looking for creative Website Design Company in Delhi? Get user friendly professional and E-commerce web development services. Join the innovators.
+    ">
+      <meta property="og:url" content="https://mdaqil.tk/">
+
+      <meta property="og:image" content="https://mdaqil.tk/img/main-screen.jpg">
 
 
 
-        <div class="back-text">
-          <p>1 year working with clients, building and designing their websites from scratch using HTML, CSS, Java
-            script
-            1 year working with clients, building and designing their websites from scratch using HTML, CSS, Java
-            script
-            1 year working with clients, building and designing their websites from scratch using HTML, CSS, Java
-            script
-            1 year working with clients, building and designing their websites from scratch using HTML, CSS, Java
-            script
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-111268069-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-111268069-2');
+    </script>
+
+</head>
+
+  
+  <body>
+  
+  <div class="resume-container">
+  		<nav id"nav-id">
+  		<a href="index.html">Home</a>
+  		<a href="#" onclick="print()">Print</a>
+  	</nav>
+<div id="resume-text" style="display: flex;">
+
+   
+      <div class="close">
+        +
+      </div>
+      
+	<aside>
+		<section id = "section-id" class="text-center" style="padding:0">
+			<img class="porfile-pic" src="img/designer.jpeg" alt="">
+			<h2 style="margin-bottom: 5px">Eric Lopez</h2>
+			<small class="text-muted">JUNIOR FULL-STACK WEB DEVELOPER</small>
+      <p class="text-muted">
+         <small>
+        <b>Phone:</b> 619-765-8277</small>
+      </p>
+     <p class="text-muted">
+        <small>
+        <b>Email:</b> ericlz.25412@gmail.com
+          
+        </small>
+     </p>
+       
+      
+		</section>
+		<section>
+			<h3 class="line-title center">About Me</h3>
+			<p class="read"> For the past couple years I have been freelancing and building my frontend skills , building and visually designing clients websites, using Adobe photoshop, HTML, CSS, and JavaScript/jQuery. I decided to advance my career and joined UCSD Full-stack Web Development bootcamp where I learned Frontend languages (Html5, CSS, React, Bootstrap) and Backend languages ( Node.js, Express, Mongodb, Firebase, MYSQL(Sequelize) )
+</p>
+		</section>
+	   <section>
+        <h3 class="line-title center">Skills</h3>
+        <ul class="skill-list">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>AJAX</li>
+        </ul>
+        <ul class="skill-list2">
+                    <li>Node.js</li>
+                    <li>React</li>
+                   <li>Express</li>
+                   <li>Mongodb</li>
+                   <li>Firebase</li>
+                  <li> MYSQL(Sequelize)</li>
+        </ul>
+ 
+      </section>
+      <section id="education">
+   
+        <h3 class=" center">Education</h3>
+        <p class="read">
+          UCSD Full-stack Web development bootcamp (Certificate)
+          (Associate of Science Degree) Computer and information Sciences
+        </p>
+
+      </section>
+	</aside>
+	<main>
+		<section>
+			<h3 class="line-title">Objective</h3>
+			<article id="objective-text"class="flex-group">
+			
+				<div class="full">
+					
+					<p class="read">I want to bring to life my ideas through my designing skills for benefit of my company. I have experience building full-stack web applications and designing using Adobe photoshop, and figma which will help me to grow my career with my company.</p>
+				</div>
+			</article>
+		</section>
+			<section>
+
+			<h3 class="line-title">Experience <small class="text-muted">(1-2 years)  2/10/18 - present           
+</small></h3>
+
+			<article class="flex-group">
+
+				<div class="short">
+					<h4>Freelancing</h4>
+					<p>
+            Using HTML, css, and basic Javascript to build websites for small businesses.
+         </p><hr>
+  
+        <p></p>
+				</div>
+
+				<div id="sum-experience" class="full">
+					<p class="read-exp">
+        I've build a local pizza shop, my personal optometrist website, and redesigned a shoe reapir shop. I Had Used Html5, Css3, Jquery, Javascript to develop the website dynamically and make it most user-friendly. I had given it graphics from Adobe Photoshop.      
           </p>
+				</div>
+			</article>
 
-          <button type="button">read more</button>
-        </div>
-      </article>
+		</section>
 
-      <article class="service-item services-item-white">
-        <div class="front-text">
-          <i class="fas fa-paint-brush"></i>
+			<section id="proj-comp">
+			<h3 class="line-title">Project Completed</h3>
+  			<article class="flex-group">
+  				<div class="short">
+  					<h4><a href="https://server-spies.herokuapp.com/">EventCreator.com</a></h4>
+  					<p>Backend development ( JavaScript, Node.js, Express, MYSQL  ) Frontend( html, css, bootstrap)</p>
+  				</div>
+  				<div class="full">
+  					
+  					<p id="my-proj" class="read1">
 
-          <h1> web design</h1>
-        </div>
+              Event Creator is a website where users can create an event and set the name, date, category, location, and a brief description. 
+              The user can invite their guest through email and they will be presented with two options "yes im going" or "no not going"
+              and it will automatically update in the site. 
+            </p>
+             <hr>
+  				</div>
+  			</article>
 
+        
+        <article id="my-proj-text1" class="flex-group">
+          <div class="short">
+            <h4><a href="https://safe-spire-17023.herokuapp.com/">LuxuryHousing.com</a></h4>
+            <p>Backend development (React-router, express, mysql (Sequelize)) </p>
+          </div>
+          <div class="full">
+            
+            <p id="my-proj" class="read2">
+              Luxury Housing is a realestate website where a user can check current listings and can select a house type, the price range
+              , and the house size.  
+            </p>
+            <hr class="hr2">
+          </div>
+        </article>
 
+          <article id="my-proj-text2" class="flex-group">
+          <div class="short">
+            <h4><a href="">MotorcycleSD.com</a></h4>
+            <p>Frontend ( Html, Css, JavaScript )</p>
+          </div>
+          <div class="full">
+            
+            <p id="my-proj" class="read">
+              
+              Motorcycle dealership
+              a website that gives a brief description on motorcycles, and lists the motorcycles, parts, and tools they have on sale at their store
 
-        <div class="back-text">
-          <h1>web design</h1>
-          <p>Designing websites creating templates, logos in Adobe photoshop </p>
-          <button type="button">read more</button>
-        </div>
-      </article>
-
-
-
-
-
-      <article class="service-item services-item-black">
-        <div class="front-text">
-          <i class="fas fa-mobile-alt"></i>
-
-
-          <h1> Responsive design</h1>
-        </div>
-
-
-
-        <div class="back-text">
-          <h1>Responsive design</h1>
-          <p>Creating media queries to fit mobile and desktop screen sizes and resolutions.</p>
-          <button type="button">read more</button>
-        </div>
-      </article>
-
-      <article class="service-item services-item-white">
-        <div class="front-text">
-          <i class=" fas fa-archive"></i>
-          <h1>SEO & PPC</h1>
-        </div>
-
-
-
-        <div class="back-text">
-          <h1>SEO & PPC</h1>
-          <p>Working with google analytics, google adwords to grow search engine results organically or paid ﻿</p>
-          <button type="button">read more</button>
-        </div>
-      </article>
-
-
-  </section>
-
-  <section id="about">
-    <div class="about-container">
-
-      <article class="about-item about-item-black">
-        <div class="front-text-a">
-
-          <h1> About me </h1>
-          <p> Welcome to my website. I'm a junior web developer, for the past couple years I have been freelancing,
-            building and visually designing clients websites, using Adobe photoshop, HTML, CSS, and JavaScript/jQuery.
-            I have worked on websites using Wordpress and building themes and plugins on Wordpress. Additionally, I'm
-            extremely passionate about web development and design in all it's forms. My goal is to finish college and
-            get my degree in Computor Science, being a partime student gave me chance to learn web devolpment and
-            freelancing on building websites.</p>
-
-          <ul class="about-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript/jQuery</li>
-            <li>Adobe photoshop</li>
-            <li>Wordpress</li>
-          </ul>
+            </p>
+          </div>
+        </article>
 
 
+		</section>
 
-        </div>
-
-
-      </article>
-    </div>
-  </section>
-
-
-
-  <div class="container-work">
-    <!--everything on the page-->
-    <div class="row-work">
-
-    </div>
-    <!--closing row 1-->
-
-    <div class="row-work">
-      <div class="hero-image">
-        <h1> Projects</h1>
-      </div>
-    </div>
-    <!--closing row 2-->
-
-
-    <div class="row-work">
-      <div class="row3">
-        <div class="six">
-          HELLOWORLD
-        </div>
-        <!--closing column 6-->
-
-        <div class="three">
-        </div>
-        <!--closing column 3-->
-
-        <div class="three">
-        </div>
-        <!--closing column 3-->
-      </div>
-    </div>
-    <!--closing row 3-->
-
-
-    <div class="row-work">
-      <div class="row4">
-
-        <div class="three">
-        </div>
-        <!--closing column 3-->
-
-        <div class="six">
-        </div>
-        <!--closing column 6-->
-
-        <div class="three">
-        </div>
-        <!--closing column 3-->
-      </div>
-    </div>
-    <!--closing row 4-->
-
-    <div class="row-work">
-      <div class="row5">
-        <div class="three">
-        </div>
-        <!--closing column 3-->
-
-        <div class="three">
-        </div>
-        <!--closing column 3-->
-
-        <div class="three">
-        </div>
-        <!--closing column 3-->
-
-        <div class="three">
-        </div>
-        <!--closing column 3-->
-      </div>
-    </div>
-    <!--closing row 5-->
-
-
-    <div class="row-work">
-      <div class="row6">
-        <div class="six">
-        </div>
-        <!--closing column 6-->
-
-        <div class="three">
-        </div>
-        <!--closing column 3-->
-
-        <div class="three">
-        </div>
-        <!--closing column 3-->
-      </div>
-    </div>
-    <!--closing row 6-->
-
-
-    <div class="row-work">
-      <footer>
-        <div class="six">
-        </div>
-        <!--closing column 6-->
-
-        <div class="three">
-        </div>
-        <!--closing column 3-->
-      </footer>
-    </div>
-    <!--closing row 7-->
-
-
-    <div class="row-work">
-      <div class="last" style="color:aliceblue;">
-        p
-      </div>
-    </div>
-    <!--closing row 8-->
-
+    
+	</main>
+</div>
+  
+  </div>
 
 
   </div>
-  <!--closing container div-->
-  <section id="resume">
-    <div class="work-container">
+</section>
 
-      <article class="resume-item">
-        <div class="front-text-r">
+  <script src="resume.js"></script>
 
-          <h1> Like What You See? </h1>
-          <p> Check out my resume to learn more.</p>
-
-          <div class="banner-btn-r">
-            <button type="button">View Resume</button>
-
-          </div>
-
-        </div>
-
-
-      </article>
-    </div>
-    </div>
-  </section>

@@ -1,11 +1,12 @@
-// var express = require("express");
-// var app = express();
-// var hbs = require("handlebars");
+import React from 'react';
 
+function App(){
 
-// app.use(express.urlencoded({ extended: false }))
+    return(
+        <div>
+            <h1> hello react</h1>
+        </div>
+    );
+}
 
-
-// app.post("/", express,function(req,res){
-
-// })
+export default App
