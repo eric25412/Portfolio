@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+
 }
+
+
 
 body {
   background: linear-gradient(102deg, #2c3e50, #3498db);
@@ -380,7 +382,7 @@ nav ul {
   display: block;
   font-size: 20px;
   padding: 30px 25px;
-  color: #c0971e;
+  color: white;
 
 
 }
@@ -504,8 +506,8 @@ nav ul li b {
 
 @media screen and (max-device-width: 768px) {
 
-  body{
-    background: #155f8d;
+  html{
+padding: 50%;
   
   } 
 
@@ -530,7 +532,17 @@ nav ul li b {
   div.hero-image {
 
     width: 1080px;
+    position: relative;
+    left: 85px;
+
 }
+
+.work-proj-header{
+
+  margin-left: -163px;
+
+}
+
 
   .contact-wrapper{
 
@@ -559,10 +571,61 @@ nav ul li b {
     position: relative;
     left: 500px;
   }
+ 
+.textOverImage{
+    right: 490px;
+  }
+
+.textOverImage1{
+    bottom: 248px;
+    left: -275px;
+    
+    }
 
 .textOverImage2{
 
-  margin-top: 50px;
+    left: -490px;
+    bottom: 200px
+
+}
+
+.textOverImage3{
+
+  left: -363px;
+  top: -441px;
+  
+  }
+
+.textOverImage4{
+
+    left: -485px;
+    margin-top: -437px;
+    
+    }
+
+.textOverImage5{
+
+      left: 100px;
+      
+      }
+
+.textOverImage6{
+
+        margin-left: 500px;
+        top: -708px;
+        display: none;
+        }  
+        
+.textOverImage7{
+
+  margin-top: -414px;
+  display: none;          
+          }
+
+.stack-container{
+
+  width: 200px;
+
 }
 
   #about-container{
@@ -617,6 +680,8 @@ nav ul li b {
 
 
 @media screen and (max-device-width: 375px) {
+
+
 
   #logo{
 
@@ -949,7 +1014,7 @@ nav ul li b {
 }
 
 .about-list li {
-  color: #09a1f9;
+  color: white;
   line-height: 2;
 
 }
@@ -1072,8 +1137,8 @@ nav ul li b {
 
   background-image: url("../img/snippets-web-proj/project1-pic-snippet.PNG");
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   float: left;
   margin-left: 90px;
   background-size:cover;
@@ -1093,6 +1158,7 @@ nav ul li b {
   white-space: pre-wrap;
   word-wrap: break-word;
   overflow: hidden;
+  overflow-y:auto;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding:0 8px;
@@ -1109,7 +1175,7 @@ nav ul li b {
 .textOverImage:first-line{
   color:#fff;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 /* img1 css code */
 
@@ -1117,13 +1183,14 @@ nav ul li b {
 
   background-image: url("../img/snippets-web-proj/project2-pic-snippet.PNG");
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   float: left;
   margin-left: 90px;
   background-size:cover;
   background-position: center;
   transition: 0.5%;
+  right: 77px;
 }
 
 .textOverImage1:hover{
@@ -1138,6 +1205,7 @@ nav ul li b {
   white-space: pre-wrap;
   word-wrap: break-word;
   overflow: hidden;
+  overflow-y:auto;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding:0 8px;
@@ -1154,15 +1222,36 @@ nav ul li b {
 .textOverImage1:first-line{
   color:#fff;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .link-sites{
   position: relative;
-  top: 300px;
-  left: 80px
+  top: 200px;
+  left: 53px;
+  color: white;
+
   
 }
+
+.link-sites4{
+
+  position: relative;
+  left: 53px;
+  top: 201px;
+  color: white;
+  
+}
+
+.link-sites5{
+
+  position: relative;
+  left: 53px;
+  top: 200px;
+  color: white;
+  
+}
+
 
 /*  end of img1 css */
 
@@ -1173,13 +1262,14 @@ nav ul li b {
 
   background-image: url("../img/snippets-web-proj/project3-pic-snippet.PNG");
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   float: left;
   margin-left: 90px;
   background-size: 200%;
   background-position: center;
   transition: 0.5%;
+  right: 154px;
 }
 
 .textOverImage2:hover{
@@ -1194,6 +1284,7 @@ nav ul li b {
   white-space: pre-wrap;
   word-wrap: break-word;
   overflow: hidden;
+  overflow-y:auto;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding:0 8px;
@@ -1210,7 +1301,7 @@ nav ul li b {
 .textOverImage2:first-line{
   color:#fff;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 
@@ -1222,14 +1313,16 @@ nav ul li b {
 
   background-image: url("../img/snippets-web-proj/project4-pic-snippet.PNG");
   position: relative;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   float: left;
-  margin-left: 90px;
+  margin-left: 175px;
   margin-top: 40px;
   background-size: 200%;
   background-position: center;
   transition: 0.5%;
+  bottom: 43px;
+  right: 82px;
 }
 
 .textOverImage3:hover{
@@ -1244,6 +1337,7 @@ nav ul li b {
   white-space: pre-wrap;
   word-wrap: break-word;
   overflow: hidden;
+  overflow-y:auto;
   background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding:0 8px;
@@ -1260,21 +1354,248 @@ nav ul li b {
 .textOverImage3:first-line{
   color:#fff;
   font-weight: bold;
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 /*  end of img2\3 css */
 
+.textOverImage4 {
+
+  background-image: url("../img/snippets-web-proj/Capture.PNG");
+  position: relative;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 85px;
+  background-size: 200%;
+  background-position: center;
+  transition: 0.5%;
+  top: 40px;
+}
+
+.textOverImage4:hover{
+  background-size: 200%;
+}
+.textOverImage4:after{
+  position: absolute;
+  top:90%;
+  bottom: 0;
+  left:0;
+  right:0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  overflow-y:auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding:0 8px;
+  content: attr(data-text);
+  transition: 0.5s;
+}
+
+.textOverImage4:hover:after{
+  top:0;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.6))
+}
+
+.textOverImage4:first-line{
+  color:#fff;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.textOverImage5 {
+
+  background-image: url("../img/snippets-web-proj/scrabbler.PNG");
+  position: relative;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 150px;
+  background-size: 200%;
+  background-position: center;
+  transition: 0.5%;
+  bottom: 24px;
+  left: 65px;
+}
+
+.textOverImage5:hover{
+  background-size: 200%;
+}
+.textOverImage5:after{
+  position: absolute;
+  top:90%;
+  bottom: 0;
+  left:0;
+  right:0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  overflow-y:auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding:0 8px;
+  content: attr(data-text);
+  transition: 0.5s;
+}
+
+.textOverImage5:hover:after{
+  top:0;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.6))
+}
+
+.textOverImage5:first-line{
+  color:#fff;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+
+.textOverImage6 {
+
+  background-image: url("../img/snippets-web-proj/tea.PNG");
+  position: relative;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 150px;
+  background-size: 200%;
+  background-position: center;
+  transition: 0.5%;
+  bottom: 508px;
+  left: 940px;
+}
+
+.textOverImage6:hover{
+  background-size: 200%;
+}
+.textOverImage6:after{
+  position: absolute;
+  top:90%;
+  bottom: 0;
+  left:0;
+  right:0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  overflow-y:auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding:0 8px;
+  content: attr(data-text);
+  transition: 0.5s;
+}
+
+.textOverImage6:hover:after{
+  top:0;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.6))
+}
+
+.textOverImage6:first-line{
+  color:#fff;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+
+.textOverImage7 {
+
+  background-image: url("../img/snippets-web-proj/vitamin.PNG");
+  position: relative;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-left: 150px;
+  background-size: 200%;
+  background-position: center;
+  transition: 0.5%;
+  bottom: 483px;
+  left: 732px;
+}
+
+.textOverImage7:hover{
+  background-size: 200%;
+}
+.textOverImage7:after{
+  position: absolute;
+  top:90%;
+  bottom: 0;
+  left:0;
+  right:0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow: hidden;
+  overflow-y:auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding:0 8px;
+  content: attr(data-text);
+  transition: 0.5s;
+}
+
+.textOverImage7:hover:after{
+  top:0;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.6))
+}
+
+.textOverImage7:first-line{
+  color:#fff;
+  font-weight: bold;
+  font-size: 1em;
+}
 
 
 
 
 .hero-image {
-  height: 210px;
+  height: 100px;
   background: url(image1.jpg) no-repeat center center fixed;
   padding: 50px 50px;
-  background-color: #2781ee;
+  background-color: #023d84;
   color: white;
+  position: relative;
+  bottom: 25px;
+
+
+}
+
+.work-proj-header{
+
+  position: relative;
+  bottom: 70px;
+  left: 900px;
+}
+
+.hero-image h1{
+
+  position: relative;
+  bottom: 25px;
+  font-size: 30px;
+  right: 355px;
+
+}
+
+.hero-image2 {
+  height: 100px;
+  background: url(image1.jpg) no-repeat center center fixed;
+  padding: 50px 50px;
+  background-color: #023d84;
+  color: white;
+  position: relative;
+  top: 700px;
+
+
+}
+
+.hero-image2 h1{
+
+  position: relative;
+  bottom: 25px;
+  font-size: 30px;
 }
 
 .row3 .six,
@@ -1905,6 +2226,14 @@ hr{
 
   position: relative;
   left: 80px;
+}
+
+.work-proj{
+
+  position: relative;
+  top: 900px;
+  margin-bottom: 100px;
+  background-color: #021328;
 }
 
 
