@@ -30,7 +30,7 @@ $(document).ready(function() {
     // So $("#id|.class|element").on("action", function(){});
     // And so whenever it is clicked...
     $("#resume-button").on("click", function() {
-        window.location = 'img/offical-resume-converted-pdf.pdf';
+        window.location = 'img/myResume-converted.pdf';
     });
 
   });
